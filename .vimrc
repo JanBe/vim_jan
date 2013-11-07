@@ -6,8 +6,8 @@ set background=dark
 colorscheme solarized
 
 " GUI customizations
-set guioptions=aAce
-set wm=5
+set guioptions=aAce               " Turn of MacVim's toolbar, scrollbars, etc
+set wm=5                          " wrap margin for words
 set scrolloff=5                   " scroll 5 lines ahead on page endings
 set number                        " show line numbers
 set backspace=indent,eol,start    " backspace through everything in insert mode
