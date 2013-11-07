@@ -14,6 +14,7 @@ Bundle 'Solarized'
 " GitHub repos
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'tpope/vim-rails.git'
+Bundle 'tpope/vim-fugitive.git'
 
 " Configuration for Powerline
 set laststatus=2                            " Always show statusbar
@@ -48,6 +49,14 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set expandtab
+
+" Mappings for fugitive
+:nmap <leader>gb :Gblame<CR>
+:nmap <leader>gs :Gstatus<CR>
+:nmap <leader>gd :Gdiff<CR>
+:nmap <leader>gl :Glog<CR>
+:nmap <leader>gc :Gcommit<CR>
+:nmap <leader>gp :Git push<CR>
 
 " Whitespace Deletion
 :map <Leader>w :%s/\s\+$//e<cr> <C-o>
