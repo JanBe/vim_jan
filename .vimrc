@@ -69,9 +69,6 @@ inoremap <D-Return> <CR><CR><C-o>k<Tab>
 " Go to a partial when the cursor is on the partial name
 nmap <leader>rp ebyw:Rview _<C-R>"<CR>
 
-" Fix slim wrapping issue
-autocmd BufNew *.slim :set textwidth=0
-
 " Various
 nnoremap <esc> :noh<return>
 nmap <D-r> /def<space>
