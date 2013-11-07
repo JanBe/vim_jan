@@ -43,6 +43,12 @@ set listchars=tab:▸\    " a tab should be displayed as a ▸
 set listchars+=trail:·  " and a trailing whitespace as a ·
 set list
 
+" Set tabs to 2 spaces
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set expandtab
+
 " Whitespace Deletion
 :map <Leader>w :%s/\s\+$//e<cr> <C-o>
 
