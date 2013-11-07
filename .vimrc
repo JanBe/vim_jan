@@ -23,6 +23,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'mileszs/ack.vim'
 Bundle 'Raimondi/delimitMate'
+Bundle 'bkad/CamelCaseMotion'
 
 " Configuration for Powerline
 set laststatus=2                            " Always show statusbar
