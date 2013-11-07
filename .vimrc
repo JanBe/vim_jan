@@ -30,6 +30,13 @@ set wm=5
 set scrolloff=5                   " scroll 5 lines ahead on page endings
 let delimitMate_expand_space = 1
 set number                        " show line numbers
+set backspace=indent,eol,start    " backspace through everything in insert mode
+
+" Search
+set hlsearch    " highlight matches
+set incsearch   " incremental searching
+set ignorecase  " searches are case insensitive...
+set smartcase   " ... unless they contain at least one capital letter
 
 " Whitespace Deletion
 :map <Leader>w :%s/\s\+$//e<cr> <C-o>
