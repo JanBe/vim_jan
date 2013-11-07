@@ -25,6 +25,7 @@ Bundle 'mileszs/ack.vim'
 Bundle 'Raimondi/delimitMate'
 Bundle 'bkad/CamelCaseMotion'
 Bundle 'slim-template/vim-slim'
+Bundle 'tpope/vim-endwise'
 
 " Configuration for Powerline
 set laststatus=2                            " Always show statusbar
