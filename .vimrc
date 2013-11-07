@@ -16,17 +16,20 @@ Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'tpope/vim-rails.git'
 
 " Configuration for Powerline
-set laststatus=2
-set guifont=Menlo\ Regular\ for\ Powerline
+set laststatus=2                            " Always show statusbar
+set guifont=Menlo\ Regular\ for\ Powerline  " Use font with symbols for Powerline
 let g:Powerline_symbols = 'fancy'
 
-" GUI customizations
+" Colorscheme
 set background=dark
 colorscheme solarized
+
+" GUI customizations
 set guioptions=aAce
 set wm=5
-set scrolloff=5
+set scrolloff=5                   " scroll 5 lines ahead on page endings
 let delimitMate_expand_space = 1
+set number                        " show line numbers
 
 " Whitespace Deletion
 :map <Leader>w :%s/\s\+$//e<cr> <C-o>
