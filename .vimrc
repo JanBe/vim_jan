@@ -69,6 +69,9 @@ nmap <leader>gl :Glog<CR>
 nmap <leader>gc :Gcommit<CR>
 nmap <leader>gp :Git push<CR>
 
+" ctrlp mapping
+nmap <D-t> :CtrlP<CR>
+
 " Whitespace Deletion
 map <Leader>w :%s/\s\+$//e<cr> <C-o>
 
