@@ -66,6 +66,10 @@ set expandtab
 filetype on
 filetype plugin indent on
 
+" better navigation of wrapped lines
+nnoremap j gj
+nnoremap k gk
+
 " easier increment/decrement
 nnoremap + <C-a>
 nnoremap # <C-x>
