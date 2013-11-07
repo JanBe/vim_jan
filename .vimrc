@@ -14,6 +14,7 @@ Bundle 'Solarized'
 " GitHub repos
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'tpope/vim-rails.git'
+Bundle 'scrooloose/nerdcommenter'
 Bundle 'tpope/vim-fugitive.git'
 
 " Configuration for Powerline
