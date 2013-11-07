@@ -21,6 +21,7 @@ Bundle 'AndrewRadev/switch.vim'
 Bundle 'vim-scripts/blockle.vim'
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
+Bundle 'mileszs/ack.vim'
 
 " Configuration for Powerline
 set laststatus=2                            " Always show statusbar
@@ -72,6 +73,9 @@ nmap <leader>gp :Git push<CR>
 
 " ctrlp mapping
 nmap <D-t> :CtrlP<CR>
+
+" ack mapping
+map <D-F> :Ack<space>
 
 " Whitespace Deletion
 map <Leader>w :%s/\s\+$//e<cr> <C-o>
