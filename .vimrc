@@ -17,6 +17,7 @@ Bundle 'tpope/vim-rails.git'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'tpope/vim-fugitive.git'
 Bundle 'scrooloose/nerdtree'
+Bundle 'AndrewRadev/switch.vim'
 
 " Configuration for Powerline
 set laststatus=2                            " Always show statusbar
@@ -54,6 +55,9 @@ set expandtab
 
 " NerdTree mapping
 map <silent> <leader>n :NERDTreeToggle<CR> :NERDTreeMirror<CR>
+
+" Mapping for switch.vim
+nnoremap - :Switch<cr>
 
 " Mappings for fugitive
 :nmap <leader>gb :Gblame<CR>
