@@ -34,3 +34,6 @@ let delimitMate_expand_space = 1
 " Fix slim wrapping issue
 autocmd BufNew *.slim :set textwidth=0
 
+" YankRing
+nnoremap <silent> <leader>p :YRShow<CR>
+

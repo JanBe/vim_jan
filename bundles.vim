@@ -42,4 +42,6 @@ Bundle 'tpope/vim-endwise'
 Bundle 'ervandew/supertab'
 " Easier navigation, triggered with <Leader><Leader>
 Bundle 'Lokaltog/vim-easymotion'
+" Yank, delete and changed history
+Bundle 'vim-scripts/YankRing.vim'
 
