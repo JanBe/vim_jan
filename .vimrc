@@ -39,6 +39,7 @@ set scrolloff=5                   " scroll 5 lines ahead on page endings
 let delimitMate_expand_space = 1
 set number                        " show line numbers
 set backspace=indent,eol,start    " backspace through everything in insert mode
+set smartindent                   " smart indentation when starting a new line
 
 " Search
 set hlsearch    " highlight matches
