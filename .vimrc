@@ -42,7 +42,7 @@ set scrolloff=5                   " scroll 5 lines ahead on page endings
 let delimitMate_expand_space = 1
 set number                        " show line numbers
 set backspace=indent,eol,start    " backspace through everything in insert mode
-set smartindent                   " smart indentation when starting a new line
+set autoindent                    " copies indentation from the previous line
 
 " Search
 set hlsearch    " highlight matches
@@ -60,6 +60,10 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set expandtab
+
+" Activate filetype dependent indentation
+filetype on
+filetype plugin indent on
 
 " NerdTree mapping
 map <silent> <leader>n :NERDTreeToggle<CR> :NERDTreeMirror<CR>
