@@ -8,10 +8,8 @@ call vundle#rc()
 " let Vundle manage Vundle
 Bundle 'gmarik/vundle'
 
-" vim-scripts repos
-Bundle 'Solarized'
-
-" GitHub repos
+" Colorscheme
+Bundle 'altercation/vim-colors-solarized'
 " Fancy statusline
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 " Make vim aware of rails projects
