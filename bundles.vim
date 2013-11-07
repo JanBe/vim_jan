@@ -38,4 +38,6 @@ Bundle 'bkad/CamelCaseMotion'
 Bundle 'slim-template/vim-slim'
 " Automatic completion of blocks like if .. end
 Bundle 'tpope/vim-endwise'
+" Autocomplete with tab
+Bundle 'ervandew/supertab'
 
