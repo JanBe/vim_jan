@@ -70,6 +70,10 @@ filetype plugin indent on
 nnoremap + <C-a>
 nnoremap # <C-x>
 
+" keep selection after in/outdent
+vnoremap < <gv
+vnoremap > >gv
+
 " NerdTree mapping
 map <silent> <leader>n :NERDTreeToggle<CR> :NERDTreeMirror<CR>
 
