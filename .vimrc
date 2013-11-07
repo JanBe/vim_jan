@@ -18,6 +18,7 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'tpope/vim-fugitive.git'
 Bundle 'scrooloose/nerdtree'
 Bundle 'AndrewRadev/switch.vim'
+Bundle 'vim-scripts/blockle.vim'
 
 " Configuration for Powerline
 set laststatus=2                            " Always show statusbar
