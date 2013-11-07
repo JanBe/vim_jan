@@ -1,9 +1,5 @@
-source ~/.vim/bundles.vim   " Vundle plugins
-
-" Configuration for Powerline
-set laststatus=2                            " Always show statusbar
-set guifont=Menlo\ Regular\ for\ Powerline  " Use font with symbols for Powerline
-let g:Powerline_symbols = 'fancy'
+source ~/.vim/bundles.vim " Vundle plugins
+source ~/.vim/plugins.vim " Plugin config and bindings
 
 " Colorscheme
 set background=dark
@@ -13,7 +9,6 @@ colorscheme solarized
 set guioptions=aAce
 set wm=5
 set scrolloff=5                   " scroll 5 lines ahead on page endings
-let delimitMate_expand_space = 1
 set number                        " show line numbers
 set backspace=indent,eol,start    " backspace through everything in insert mode
 set autoindent                    " copies indentation from the previous line
@@ -51,26 +46,6 @@ nnoremap # <C-x>
 vnoremap < <gv
 vnoremap > >gv
 
-" NerdTree mapping
-map <silent> <leader>n :NERDTreeToggle<CR> :NERDTreeMirror<CR>
-
-" switch.vim mapping
-nnoremap - :Switch<cr>
-
-" fugitive mappings
-nmap <leader>gb :Gblame<CR>
-nmap <leader>gs :Gstatus<CR>
-nmap <leader>gd :Gdiff<CR>
-nmap <leader>gl :Glog<CR>
-nmap <leader>gc :Gcommit<CR>
-nmap <leader>gp :Git push<CR>
-
-" ctrlp mapping
-nmap <D-t> :CtrlP<CR>
-
-" ack mapping
-map <D-F> :Ack<space>
-
 " Whitespace Deletion
 map <Leader>w :%s/\s\+$//e<cr> <C-o>
 
@@ -90,11 +65,6 @@ command E Ex
 
 " Automatically close bracket
 inoremap <D-Return> <CR><CR><C-o>k<Tab>
-
-" Bindings for CamelCaseMotion
-map <S-W> <Plug>CamelCaseMotion_w
-map <S-B> <Plug>CamelCaseMotion_b
-map <S-E> <Plug>CamelCaseMotion_e
 
 " Go to a partial when the cursor is on the partial name
 nmap <leader>rp ebyw:Rview _<C-R>"<CR>
