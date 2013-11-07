@@ -40,4 +40,6 @@ Bundle 'slim-template/vim-slim'
 Bundle 'tpope/vim-endwise'
 " Autocomplete with tab
 Bundle 'ervandew/supertab'
+" Easier navigation, triggered with <Leader><Leader>
+Bundle 'Lokaltog/vim-easymotion'
 
