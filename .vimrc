@@ -66,6 +66,10 @@ set expandtab
 filetype on
 filetype plugin indent on
 
+" easier increment/decrement
+nnoremap + <C-a>
+nnoremap # <C-x>
+
 " NerdTree mapping
 map <silent> <leader>n :NERDTreeToggle<CR> :NERDTreeMirror<CR>
 
