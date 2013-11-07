@@ -58,10 +58,10 @@ set expandtab
 " NerdTree mapping
 map <silent> <leader>n :NERDTreeToggle<CR> :NERDTreeMirror<CR>
 
-" Mapping for switch.vim
+" switch.vim mapping
 nnoremap - :Switch<cr>
 
-" Mappings for fugitive
+" fugitive mappings
 nmap <leader>gb :Gblame<CR>
 nmap <leader>gs :Gstatus<CR>
 nmap <leader>gd :Gdiff<CR>
