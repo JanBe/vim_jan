@@ -16,6 +16,7 @@ Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'tpope/vim-rails.git'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'tpope/vim-fugitive.git'
+Bundle 'scrooloose/nerdtree'
 
 " Configuration for Powerline
 set laststatus=2                            " Always show statusbar
@@ -50,6 +51,9 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set expandtab
+
+" NerdTree mapping
+map <silent> <leader>n :NERDTreeToggle<CR> :NERDTreeMirror<CR>
 
 " Mappings for fugitive
 :nmap <leader>gb :Gblame<CR>
