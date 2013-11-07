@@ -22,6 +22,7 @@ Bundle 'vim-scripts/blockle.vim'
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'mileszs/ack.vim'
+Bundle 'Raimondi/delimitMate'
 
 " Configuration for Powerline
 set laststatus=2                            " Always show statusbar
