@@ -60,29 +60,29 @@ map <silent> <leader>n :NERDTreeToggle<CR> :NERDTreeMirror<CR>
 nnoremap - :Switch<cr>
 
 " Mappings for fugitive
-:nmap <leader>gb :Gblame<CR>
-:nmap <leader>gs :Gstatus<CR>
-:nmap <leader>gd :Gdiff<CR>
-:nmap <leader>gl :Glog<CR>
-:nmap <leader>gc :Gcommit<CR>
-:nmap <leader>gp :Git push<CR>
+nmap <leader>gb :Gblame<CR>
+nmap <leader>gs :Gstatus<CR>
+nmap <leader>gd :Gdiff<CR>
+nmap <leader>gl :Glog<CR>
+nmap <leader>gc :Gcommit<CR>
+nmap <leader>gp :Git push<CR>
 
 " Whitespace Deletion
-:map <Leader>w :%s/\s\+$//e<cr> <C-o>
+map <Leader>w :%s/\s\+$//e<cr> <C-o>
 
 " Tab maps
-:nmap <C-t> :tabnew<CR>
-:nmap <D-ö> :tabprevious<CR>
-:nmap <D-ä> :tabnext<CR>
+nmap <C-t> :tabnew<CR>
+nmap <D-ö> :tabprevious<CR>
+nmap <D-ä> :tabnext<CR>
 
 " Window maps
-:nmap <C-j> <C-w>j
-:nmap <C-k> <C-w>k
-:nmap <C-h> <C-w>h
-:nmap <C-l> <C-w>l
+nmap <C-j> <C-w>j
+nmap <C-k> <C-w>k
+nmap <C-h> <C-w>h
+nmap <C-l> <C-w>l
 
 " Explorer bind
-:command E Ex
+command E Ex
 
 " Automatically close bracket
 inoremap <D-Return> <CR><CR><C-o>k<Tab>
