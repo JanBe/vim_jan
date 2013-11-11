@@ -44,4 +44,6 @@ Bundle 'ervandew/supertab'
 Bundle 'Lokaltog/vim-easymotion'
 " Yank, delete and changed history
 Bundle 'vim-scripts/YankRing.vim'
+" Visualization of the undo tree
+Bundle 'sjl/gundo.vim'
 
