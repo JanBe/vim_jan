@@ -24,9 +24,9 @@ nmap <D-t> :CtrlP<CR>
 map <D-F> :Ack<space>
 
 " CamelCaseMotion
-map <S-W> <Plug>CamelCaseMotion_w
-map <S-B> <Plug>CamelCaseMotion_b
-map <S-E> <Plug>CamelCaseMotion_e
+map <silent> <S-W> <Plug>CamelCaseMotion_w
+map <silent> <S-B> <Plug>CamelCaseMotion_b
+map <silent> <S-E> <Plug>CamelCaseMotion_e
 
 " delimitMate
 let delimitMate_expand_space = 1
