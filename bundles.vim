@@ -36,6 +36,8 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'bkad/CamelCaseMotion'
 " slim syntax-highlighting support
 Bundle 'slim-template/vim-slim'
+" coffeescript syntax, indenting, compiling support
+Bundle 'kchmck/vim-coffee-script'
 " Automatic completion of blocks like if .. end
 Bundle 'tpope/vim-endwise'
 " Autocomplete with tab
