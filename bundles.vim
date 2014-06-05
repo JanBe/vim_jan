@@ -49,5 +49,5 @@ Bundle 'vim-scripts/YankRing.vim'
 " Visualization of the undo tree
 Bundle 'sjl/gundo.vim'
 " CSS color highlighting
-Bundle 'ap/vim-css-color'
+Bundle 'gorodinskiy/vim-coloresque'
 
