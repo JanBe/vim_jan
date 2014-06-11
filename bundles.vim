@@ -66,4 +66,6 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'slim-template/vim-slim'
 " Colors
 Bundle 'gorodinskiy/vim-coloresque'
+" Jade
+Bundle 'digitaltoad/vim-jade'
 
