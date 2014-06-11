@@ -68,4 +68,6 @@ Bundle 'slim-template/vim-slim'
 Bundle 'gorodinskiy/vim-coloresque'
 " Jade
 Bundle 'digitaltoad/vim-jade'
+" Stylus
+Bundle 'wavded/vim-stylus'
 
