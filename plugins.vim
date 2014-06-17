@@ -25,9 +25,9 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*vim/backups*,*sass-cache*,*DS_Store*,v
 map <D-F> :Ack<space>
 
 " CamelCaseMotion
-map <silent> <S-W> <Plug>CamelCaseMotion_w
-map <silent> <S-B> <Plug>CamelCaseMotion_b
-map <silent> <S-E> <Plug>CamelCaseMotion_e
+map <S-W> <Plug>CamelCaseMotion_w
+map <S-B> <Plug>CamelCaseMotion_b
+map <S-E> <Plug>CamelCaseMotion_e
 
 " delimitMate
 let delimitMate_expand_space = 1
