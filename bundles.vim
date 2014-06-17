@@ -45,6 +45,8 @@ Bundle 'Lokaltog/vim-easymotion'
 Bundle 'vim-scripts/YankRing.vim'
 " Visualization of the undo tree
 Bundle 'sjl/gundo.vim'
+" Expand selection with +
+Bundle 'terryma/vim-expand-region'
 
 
 " Theming
