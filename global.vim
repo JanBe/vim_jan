@@ -2,6 +2,17 @@
 set background=dark
 colorscheme solarized
 
+" Adaptions for using vi in iterm
+if $TERM_PROGRAM =~ "iTerm"
+  syntax enable
+  let &t_Co=256
+  set ttimeoutlen=50
+  let g:CommandTCancelMap = ['<ESC>', '<C-c>']
+  set ttymouse=xterm2
+  let &t_SI = "\<Esc>]50;CursorShape=1\x7" " Vertical bar in insert mode
+  let &t_EI = "\<Esc>]50;CursorShape=0\x7" " Block in normal mode"
+endif
+
 set noswapfile " Disable swapfiles
 
 " GUI customizations
