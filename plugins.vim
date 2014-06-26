@@ -18,7 +18,7 @@ nmap <leader>gc :Gcommit<CR>
 nmap <leader>gp :Git push<CR>
 
 " ctrlp.vim
-nmap <D-t> :CtrlP<CR>
+nmap <leader>o :CtrlP<CR>
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*vim/backups*,*sass-cache*,*DS_Store*,vendor/rails/**,vendor/cache/**,*.gem,log/**
 
 " ack
