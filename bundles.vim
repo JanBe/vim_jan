@@ -72,4 +72,6 @@ Bundle 'gorodinskiy/vim-coloresque'
 Bundle 'digitaltoad/vim-jade'
 " Stylus
 Bundle 'wavded/vim-stylus'
+" Markdown
+Bundle 'plasticboy/vim-markdown'
 
