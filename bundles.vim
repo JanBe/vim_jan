@@ -47,6 +47,8 @@ Bundle 'vim-scripts/YankRing.vim'
 Bundle 'sjl/gundo.vim'
 " Expand selection with +
 Bundle 'terryma/vim-expand-region'
+" Show list of buffers in the command bar
+Bundle 'bling/vim-bufferline'
 
 
 " Theming
