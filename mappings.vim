@@ -33,3 +33,6 @@ nmap <leader>rp ebyw:Rview _<C-R>"<CR>
 nnoremap <esc> :noh<return>
 nmap <D-r> /def<space>
 
+" Close buffer but not split
+nmap ,d :b#<bar>bd#<CR>
+
