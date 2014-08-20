@@ -8,9 +8,9 @@ call vundle#rc()
 " let Vundle manage Vundle
 Bundle 'gmarik/vundle'
 
+
 " Basic toolchain
 " ---------------
-
 " Make vim aware of rails projects
 Bundle 'tpope/vim-rails.git'
 " Git integration
@@ -25,6 +25,7 @@ Bundle 'mileszs/ack.vim'
 Bundle 'scrooloose/nerdcommenter'
 " Autocomplete with tab
 Bundle 'ervandew/supertab'
+
 
 " Gadgets
 " -------
@@ -49,6 +50,8 @@ Bundle 'sjl/gundo.vim'
 Bundle 'terryma/vim-expand-region'
 " Show list of buffers in the command bar
 Bundle 'bling/vim-bufferline'
+" Look up documentation for word unter the cursor
+Bundle 'Keithbsmiley/investigate.vim'
 
 
 " Theming
@@ -58,6 +61,7 @@ Bundle 'bling/vim-bufferline'
 Bundle 'altercation/vim-colors-solarized'
 " Fancy statusline
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+
 
 " Highlighting
 " ------------

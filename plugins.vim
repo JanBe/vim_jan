@@ -42,6 +42,10 @@ nnoremap <silent> <leader>p :YRShow<CR>
 " Gundo
 nnoremap <leader>u :GundoToggle<CR>
 
+" Investigate
+let g:investigate_use_dash = 1
+nnoremap <leader>l :call investigate#Investigate()<CR>
+
 " Markdown syntax highlighting
 let g:vim_markdown_folding_disabled = 1
 
