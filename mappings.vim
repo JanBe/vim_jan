@@ -36,3 +36,6 @@ nmap <D-r> /def<space>
 " Close buffer but not split
 nmap ,d :b#<bar>bd#<CR>
 
+" Enable copy and paste to and from system clipboard
+vmap <silent> <C-c> y:call system("pbcopy", getreg("\""))<CR>
+nmap <silent> <C-v> :call setreg("\"",system("pbpaste"))<CR>p
