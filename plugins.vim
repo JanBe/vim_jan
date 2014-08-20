@@ -23,7 +23,9 @@ nmap <leader>r :CtrlPClearCache<CR>
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*vim/backups*,*sass-cache*,*DS_Store*,vendor/rails/**,vendor/cache/**,*.gem,log/**
 
 " ack
-map <D-F> :Ack<space>
+map <C-F> :Ack -i ""<left>
+set shellpipe=> " Prevent ack results from leaking into terminal
+
 
 " CamelCaseMotion
 map <S-W> <Plug>CamelCaseMotion_w
