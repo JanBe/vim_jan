@@ -50,4 +50,3 @@ nnoremap <leader>l :call investigate#Investigate()<CR>
 
 " Markdown syntax highlighting
 let g:vim_markdown_folding_disabled = 1
-

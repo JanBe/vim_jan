@@ -51,4 +51,3 @@ filetype plugin indent on
 " keep selection after in/outdent
 vnoremap < <gv
 vnoremap > >gv
-
