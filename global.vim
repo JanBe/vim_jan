@@ -20,7 +20,6 @@ set noswapfile " Disable swapfiles
 
 " GUI customizations
 set guioptions=aAce  " Turn of MacVim's toolbar, scrollbars, etc
-set wm=5             " wrap margin for words
 set scrolloff=5      " scroll 5 lines ahead on page endings
 set number           " show line numbers
 set relativenumber   " activate relativenumber too, for hybrid line number mode (7.4+)
