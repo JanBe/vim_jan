@@ -40,6 +40,7 @@ autocmd BufNew *.slim :set textwidth = 0
 
 " YankRing
 nnoremap <silent> <leader>p :YRShow<CR>
+let g:yankring_persist = 0
 
 " Gundo
 nnoremap <leader>u :GundoToggle<CR>
