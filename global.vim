@@ -1,6 +1,5 @@
 " Colorscheme
-set background=dark
-colorscheme solarized
+colorscheme railscasts
 
 " Adaptions for using vi in iterm
 if $TERM_PROGRAM =~ "iTerm"
