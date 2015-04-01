@@ -72,8 +72,6 @@ Bundle 'scrooloose/syntastic'
 Bundle 'kchmck/vim-coffee-script'
 " Slim
 Bundle 'slim-template/vim-slim'
-" Colors
-Bundle 'gorodinskiy/vim-coloresque'
 " Jade
 Bundle 'digitaltoad/vim-jade'
 " Stylus
