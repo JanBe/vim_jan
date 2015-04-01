@@ -28,6 +28,13 @@ set relativenumber   " activate relativenumber too, for hybrid line number mode 
 set wm=0             " wrap margin for words (from right side of document
 set textwidth=0      " set default width of line
 
+" Turn on spellchecking for .tex files
+autocmd BufRead,BufNewFile *.tex setlocal spell spelllang=en_us
+"" Activate word autocompletion
+autocmd BufRead,BufNewFile *.tex set complete+=kspell
+"" Set filetype of .arb templates to ruby
+autocmd BufRead,BufNewFile *.arb setfiletype ruby
+
 " Insert mode customizations
 set backspace=indent,eol,start    " backspace through everything in insert mode
 set autoindent                    " copies indentation from the previous line
