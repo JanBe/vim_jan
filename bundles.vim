@@ -25,6 +25,8 @@ Bundle 'mileszs/ack.vim'
 Bundle 'scrooloose/nerdcommenter'
 " Autocomplete with tab
 Bundle 'ervandew/supertab'
+" Editing and compiling Ruby in Vim
+Bundle 'vim-ruby/vim-ruby'
 
 
 " Gadgets
