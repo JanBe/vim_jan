@@ -24,6 +24,10 @@ set scrolloff=5      " scroll 5 lines ahead on page endings
 set number           " show line numbers
 set relativenumber   " activate relativenumber too, for hybrid line number mode (7.4+)
 
+" Prevent automatic linebreaks
+set wm=0             " wrap margin for words (from right side of document
+set textwidth=0      " set default width of line
+
 " Insert mode customizations
 set backspace=indent,eol,start    " backspace through everything in insert mode
 set autoindent                    " copies indentation from the previous line
