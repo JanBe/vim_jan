@@ -1,6 +1,9 @@
 " Colorscheme
 colorscheme railscasts
 
+" Font
+set guifont=Menlo\ for\ Powerline:h14
+
 " Adaptions for using vi in iterm
 if $TERM_PROGRAM =~ "iTerm"
   syntax enable
