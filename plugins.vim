@@ -20,7 +20,7 @@ nmap <leader>gp :Git push<CR>
 " ctrlp.vim
 nmap <leader>o :CtrlP<CR>
 nmap <leader>r :CtrlPClearCache<CR>
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*vim/backups*,*sass-cache*,*DS_Store*,vendor/rails/**,vendor/cache/**,*.gem,log/**
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.aux,*vim/backups*,*sass-cache*,*DS_Store*,vendor/rails/**,vendor/cache/**,*.gem,log/**
 
 " ack
 map <C-F> :Ack -i ""<left>
