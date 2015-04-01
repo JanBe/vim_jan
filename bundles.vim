@@ -52,6 +52,8 @@ Bundle 'terryma/vim-expand-region'
 Bundle 'bling/vim-bufferline'
 " Look up documentation for word unter the cursor
 Bundle 'Keithbsmiley/investigate.vim'
+" Identify usage problems in writing
+Bundle 'reedes/vim-wordy'
 
 
 " Theming
