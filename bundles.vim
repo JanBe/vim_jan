@@ -57,8 +57,8 @@ Bundle 'Keithbsmiley/investigate.vim'
 " Theming
 " -------
 
-" Colorscheme
-Bundle 'altercation/vim-colors-solarized'
+" Colorscheme pack
+Plugin 'flazz/vim-colorschemes'
 " Fancy statusline
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
