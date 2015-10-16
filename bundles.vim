@@ -19,8 +19,10 @@ Bundle 'tpope/vim-fugitive.git'
 Bundle 'scrooloose/nerdtree'
 " Better CMD-T fuzzy-search
 Bundle 'kien/ctrlp.vim'
-" Project-wide search
+" Project-wide search with ack
 Bundle 'mileszs/ack.vim'
+" Project-wide search with the_silver_searcher
+Bundle 'rking/ag.vim'
 " Easily comment code, <Leader>c<Space> to toggle
 Bundle 'scrooloose/nerdcommenter'
 " Autocomplete with tab
