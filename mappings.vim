@@ -42,3 +42,6 @@ nmap <silent> <C-v> :call setreg("\"",system("pbpaste"))<CR>p
 
 " Ruby 1.8 to 1.9 hash syntax conversion
 command R18 %s/:\([^ ]*\)\(\s*\)=>/\1:/g
+
+" bind K to grep word under cursor
+nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR><CR>
