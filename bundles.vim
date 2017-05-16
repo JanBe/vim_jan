@@ -58,6 +58,8 @@ Bundle 'bling/vim-bufferline'
 Bundle 'Keithbsmiley/investigate.vim'
 " Identify usage problems in writing
 Bundle 'reedes/vim-wordy'
+" Multiple cursors, Sublime style
+Bundle 'terryma/vim-multiple-cursors'
 
 
 " Theming
