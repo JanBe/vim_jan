@@ -48,6 +48,7 @@ set smartcase   " ... unless they contain at least one capital letter
 " Character highlighting
 set listchars=tab:▸\    " a tab should be displayed as a ▸
 set listchars+=trail:·  " and a trailing whitespace as a ·
+set listchars=tab:▸\ ,trail:·,nbsp:␣
 set list
 
 " Set tabs to 2 spaces
