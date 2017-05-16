@@ -1,20 +1,17 @@
 " Colorscheme
 colorscheme railscasts
 
-" Font
-set guifont=Menlo\ for\ Powerline:h14
-
 " Adaptions for using vi in iterm
 if $TERM_PROGRAM =~ "iTerm"
   syntax enable
   let &t_Co=256
   set ttimeoutlen=50
   let g:CommandTCancelMap = ['<ESC>', '<C-c>']
-  set ttymouse=xterm2
-  let &t_SI = "\<Esc>]50;CursorShape=1\x7" " Vertical bar in insert mode
-  let &t_EI = "\<Esc>]50;CursorShape=0\x7" " Block in normal mode
-  set mouse=a
+  let $NVIM_TUI_ENABLE_CURSOR_SHAPE=2
 endif
+
+" Clipboard sharing with macOS
+set cb=unnamedplus
 
 set noswapfile " Disable swapfiles
 
@@ -46,8 +43,6 @@ set ignorecase  " searches are case insensitive...
 set smartcase   " ... unless they contain at least one capital letter
 
 " Character highlighting
-set listchars=tab:▸\    " a tab should be displayed as a ▸
-set listchars+=trail:·  " and a trailing whitespace as a ·
 set listchars=tab:▸\ ,trail:·,nbsp:␣
 set list
 

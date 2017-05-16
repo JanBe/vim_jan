@@ -1,7 +1,9 @@
 " Powerline
-set laststatus=2                            " Always show statusbar
-set guifont=Menlo\ Regular\ for\ Powerline  " Use font with symbols for Powerline
-let g:Powerline_symbols = 'fancy'
+if !has('nvim')
+  set laststatus=2                            " Always show statusbar
+  set guifont=Menlo\ Regular\ for\ Powerline  " Use font with symbols for Powerline
+  let g:Powerline_symbols = 'fancy'
+endif
 
 " NerdTree
 map <silent> <leader>n :NERDTreeToggle<CR> :NERDTreeMirror<CR>
@@ -38,9 +40,8 @@ let delimitMate_expand_space = 1
 " Fix slim wrapping issue
 autocmd BufNew *.slim :set textwidth = 0
 
-" YankRing
-nnoremap <silent> <leader>p :YRShow<CR>
-let g:yankring_persist = 0
+" Neoyank
+nnoremap <silent> <leader>p :Unite history/yank<CR>
 
 " Gundo
 nnoremap <leader>u :GundoToggle<CR>

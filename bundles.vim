@@ -1,6 +1,6 @@
 set nocompatible
-:let mapleader = ","
 filetype off
+:let mapleader = ","
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -46,8 +46,10 @@ Bundle 'bkad/CamelCaseMotion'
 Bundle 'tpope/vim-endwise'
 " Easier navigation, triggered with <Leader><Leader>
 Bundle 'Lokaltog/vim-easymotion'
-" Yank, delete and changed history
-Bundle 'vim-scripts/YankRing.vim'
+" Yank history
+Bundle 'Shougo/neoyank.vim'
+" Neoyank dependency
+Bundle 'Shougo/unite.vim'
 " Visualization of the undo tree
 Bundle 'sjl/gundo.vim'
 " Expand selection with +
@@ -66,9 +68,9 @@ Bundle 'terryma/vim-multiple-cursors'
 " -------
 
 " Colorscheme pack
-Plugin 'flazz/vim-colorschemes'
+Bundle 'flazz/vim-colorschemes'
 " Fancy statusline
-Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Bundle 'vim-airline/vim-airline'
 
 
 " Highlighting

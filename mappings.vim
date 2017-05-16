@@ -17,8 +17,10 @@ nmap <D-ä> :tabnext<CR>
 " Window maps
 nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
-nmap <C-h> <C-w>h
 nmap <C-l> <C-w>l
+" nmap <C-h> <C-w>h
+" Temporary fix until https://github.com/neovim/neovim/issues/2048 is fixed
+nmap <bs> <C-w>h
 
 " Explorer bind
 command E Ex
