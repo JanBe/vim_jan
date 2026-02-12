@@ -55,3 +55,6 @@ let g:vim_markdown_folding_disabled = 1
 
 " Load a chktexrc file into the chktex, wich is loaded by syntastic
 let g:syntastic_tex_chktex_args = "-l ~/.chktexrc"
+
+" Enable Color hightlighting for certain filetypes
+let g:colorizer_auto_filetype='css,sass,scss,html'

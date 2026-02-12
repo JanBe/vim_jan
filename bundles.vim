@@ -88,3 +88,5 @@ Bundle 'digitaltoad/vim-jade'
 Bundle 'wavded/vim-stylus'
 " Markdown
 Bundle 'plasticboy/vim-markdown'
+" HTML color preview
+Bundle 'chrisbra/Colorizer'
